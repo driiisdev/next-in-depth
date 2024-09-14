@@ -1,0 +1,13 @@
+pre-commit:
+  parallel: true
+  commands:
+    commitlint:
+      run: npm run commitlint
+    lint:
+      run: npm run lint:fix
+
+pre-push:
+  parallel: true
+  commands:
+    build:
+      run: npm run build
