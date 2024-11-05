@@ -1,8 +1,9 @@
+import Card from "@/components/card";
 
 const RevenueMetrics = () => {
   return (
     <>
-      <h1>Revenue Metrics</h1>
+      <Card>Revenue Metrics</Card>
     </>
   )
 }

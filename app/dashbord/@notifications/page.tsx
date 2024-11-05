@@ -1,8 +1,9 @@
+import Card from "@/components/card";
 
 const Notifications = () => {
   return (
     <>
-      <h1>Notifications</h1>
+      <Card>Notifications</Card>
     </>
   )
 }
