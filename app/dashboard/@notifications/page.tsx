@@ -6,7 +6,8 @@ const Notifications = () => {
     <>
       <Card>
         <div>Notifications</div>
-        <Link href="/dashboard/archived">Archived</Link>
+        &nbsp;
+        <Link className="text-blue-400 underline italic" href="/dashboard/archived">Archived</Link>
       </Card>
     </>
   )

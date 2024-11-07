@@ -5,7 +5,8 @@ const ArchivedNotification = () => {
   return (
     <Card>
       <div>Archived Notification</div>
-      <Link href="/dashboard">Default</Link>
+      &nbsp;
+      <Link className="text-blue-400 underline italic" href="/dashboard">Default</Link>
     </Card>
   )
 }
